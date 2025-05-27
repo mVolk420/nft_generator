@@ -2,3 +2,4 @@
 *.png
 *.png~
 *.json
+.env
