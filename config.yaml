@@ -1,0 +1,25 @@
+background:
+  probability: 1.0
+  traits:
+    yellow.png: 40
+    blue.png: 40
+    pink.png: 10
+    white.png: 10
+
+eyes:
+  probability: 0.9
+  traits:
+    dots.png: 40
+    more_dots_green.png: 40
+    more_dots.png: 40
+
+hat:
+  probability: 0.3
+  traits:
+    red_line.png: 100
+
+mouth:
+  probability: 0.5
+  traits:
+    orange_light.png: 70
+    round.png: 30
