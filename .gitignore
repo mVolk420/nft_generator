@@ -1,5 +1,8 @@
-*.pyc
-*.png
-*.png~
-*.json
+__pycache__/
+assets/
+output/
 .env
+# Node / Hardhat / Cache
+node_modules/
+artifacts/
+cache/
