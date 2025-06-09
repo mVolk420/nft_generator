@@ -6,3 +6,4 @@ output/
 node_modules/
 artifacts/
 cache/
+.DS_Store
