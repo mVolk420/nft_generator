@@ -12,5 +12,6 @@ if __name__ == "__main__":
         num_nfts=20,
         layer_config=config
     )
+    # generate all pictures
     generator.generate_all()
     uploader.upload_folder("./output")
