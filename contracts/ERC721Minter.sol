@@ -16,8 +16,8 @@ contract ERC721Minter is ERC721Enumerable, Ownable {
     uint256 public nextTokenId = 1;
 
     // 🏗️ Konstruktor: Setzt Collection-Namen, Symbol & IPFS-BaseURI + Owner
-    constructor(string memory baseURI)
-        ERC721("MyNFTCollection", "MNFT")            // Name + Symbol
+    constructor(string memory name_, string memory symbol_, string memory baseURI)
+        ERC721(name_, symbol_)            // Name + Symbol
         Ownable(msg.sender)                          // Setzt den Owner des Contracts auf den Deployenden
     {
         _baseTokenURI = baseURI;
